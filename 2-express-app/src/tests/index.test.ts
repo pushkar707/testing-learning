@@ -3,7 +3,7 @@ import request from "supertest"
 import { app } from ".."
 import { prismaClient } from "../db/__mocks__/db"
 
-// vi.mock('../db.ts', () => ({ // mocking prismaclient manually without __mocks__ folder
+// vi.mock('../db/db.ts', () => ({ // mocking prismaclient manually without __mocks__ folder
 //     prismaClient: {
 //         sum: {
 //             create: vi.fn()
